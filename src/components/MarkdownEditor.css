@@ -1,0 +1,12 @@
+.text-editor {
+    margin: 2%;
+    padding: 10%;
+
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.text-editor:focus-visible {
+    border-radius: 2%;
+}
