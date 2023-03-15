@@ -1,0 +1,70 @@
+/* Container*/
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 100%;
+}
+
+/* Analyzer */
+.variables-container {
+
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 25%;
+
+    margin: 3px;
+    padding: 1.5rem 0.5rem;
+
+}
+
+.variable-field {
+    width: 100%;
+}
+
+.field-input {
+    width: 90%;
+    height: 2rem;
+    font-stretch: ultra-condensed;
+    font-size: 1rem;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+.variable-field label {
+    font-size: x-large;
+}
+
+
+/* Editor */
+.editor-container {
+    width: 70%;
+}
+
+.text-editor {
+
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+
+    margin: 3px;
+
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    padding: 2rem 3rem;
+
+
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.text-editor:focus-visible {
+    border-radius: 2%;
+}
+
+textarea {
+    border-radius: 20px;
+}

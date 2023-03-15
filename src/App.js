@@ -1,11 +1,7 @@
-import MarkdownEditor from "./components/MarkdownEditor";
+import { Analyzer } from "./components/markdown/Analyzer";
 
 function App() {
-    return (
-        <div>
-            <MarkdownEditor />
-        </div>
-    );
+    return <Analyzer />;
 }
 
 export default App;
